@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EAEF,UAAU,EAAE,MAAM",
+"mappings": "AAAA,IAAK;EAEF,UAAU,EAAE,MAAM;;AAYrB,QAAS;EAEL,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,OAAO;EACf,eAAe,EAAE,KAAK;EACtB,gBAAgB,EAAE,6BAA6B",
 "sources": ["../scss/corolla.scss"],
 "names": [],
 "file": "corolla.css"
