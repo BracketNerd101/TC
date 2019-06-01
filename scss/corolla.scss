@@ -57,6 +57,15 @@ body {
 
 }
 
+.tc_safety {
+
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-image: url('../img/drive_model_01.jpeg');
+
+}
+
 
 
 .small_sp_top {
@@ -97,7 +106,7 @@ body {
 
   .grey_title_section {
 
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   .grey_title_section_bottom {
@@ -124,8 +133,11 @@ body {
    -webkit-transform: skewY(10deg);
    transform: skewY(10deg);
 
+      }
+  
+  }
 
-   }
+  #right_callout_content {
 
-     
+    margin-top: 6rem !important;
   }
