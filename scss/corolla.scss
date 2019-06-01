@@ -71,6 +71,12 @@ body {
  
  }
 
+ .small_sp_margin {
+
+    margin-bottom: 3rem;
+ 
+ }
+
  .lg_sp_top {
 
     padding-top: 7rem;
@@ -87,4 +93,39 @@ body {
   .border_right_style {
 
     border-right: 5px solid #EA3939;
+  }
+
+  .grey_title_section {
+
+    margin-top: 10rem;
+  }
+
+  .grey_title_section_bottom {
+
+    padding-bottom: 10rem;
+  }
+
+  .safty_section {
+
+    margin-top: 10rem;
+  }
+
+  .grey_callout {
+
+   background-color: #767676;
+   -ms-transform: skewY(-10deg);
+   -webkit-transform: skewY(-10deg);
+   transform: skewY(-10deg);
+
+
+   .callout_content {
+
+    -ms-transform: skewY(10deg);
+   -webkit-transform: skewY(10deg);
+   transform: skewY(10deg);
+
+
+   }
+
+     
   }
