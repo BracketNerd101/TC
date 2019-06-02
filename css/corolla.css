@@ -13,6 +13,9 @@ body {
 .text_grey {
   color: #767676; }
 
+.transparent_white_card {
+  background-color: rgba(250, 250, 250, 0.9); }
+
 .sub_tc_header {
   font-family: 'Open Sans', sans-serif; }
 
@@ -62,6 +65,42 @@ body {
   height: 20rem;
   background-size: cover;
   background-image: url("../img/drive_model_01.jpeg"); }
+
+.tc_1 {
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-image: url("../img/tc_screen.jpg"); }
+
+.tc_2 {
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-image: url("../img/lifestyle_01.jpeg"); }
+
+.tc_3 {
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-image: url("../img/tc_white.jpg"); }
+
+.tc_4 {
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-image: url("../img/tc_back1.jpg"); }
+
+.tc_5 {
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-image: url("../img/tc_back2.jpg"); }
+
+.tc_6 {
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-image: url("../img/tc_forest.jpg"); }
 
 .small_sp_top {
   padding-top: 3rem; }
