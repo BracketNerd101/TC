@@ -13,6 +13,23 @@ body {
 .text_grey {
   color: #767676; }
 
+.sub_tc_header {
+  font-family: 'Open Sans', sans-serif; }
+
+.sub_serif_tc_header {
+  font-family: 'Noto Serif', serif; }
+
+.top_tc_header {
+  font-family: 'Noto Serif', serif;
+  color: #EA3939; }
+
+.tc_body_text_card {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0rem; }
+
+.tc_body_text_style {
+  font-family: 'Open Sans', sans-serif; }
+
 .hero_card_banner {
   height: 55rem;
   border-radius: 0px; }
@@ -65,7 +82,8 @@ body {
   border-right: 5px solid #EA3939; }
 
 .grey_title_section {
-  margin-top: 5rem; }
+  margin-top: 6rem;
+  padding-top: 3rem; }
 
 .grey_title_section_bottom {
   padding-bottom: 10rem; }
@@ -73,17 +91,29 @@ body {
 .safty_section {
   margin-top: 10rem; }
 
+.grey_callout_bottom {
+  padding-bottom: 5rem; }
+
 .grey_callout {
-  background-color: #767676;
-  -ms-transform: skewY(-10deg);
-  -webkit-transform: skewY(-10deg);
-  transform: skewY(-10deg); }
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563);
+  /* W3C, IE 10+/ Edge,Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -ms-transform: skewY(-6deg);
+  -webkit-transform: skewY(-6deg);
+  transform: skewY(-6deg); }
   .grey_callout .callout_content {
-    -ms-transform: skewY(10deg);
-    -webkit-transform: skewY(10deg);
-    transform: skewY(10deg); }
+    -ms-transform: skewY(6deg);
+    -webkit-transform: skewY(6deg);
+    transform: skewY(6deg); }
 
 #right_callout_content {
-  margin-top: 6rem !important; }
+  margin-top: 4rem !important; }
+
+.style_footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
 /*# sourceMappingURL=corolla.css.map */
