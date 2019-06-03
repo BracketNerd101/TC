@@ -45,8 +45,8 @@ body {
   height: 40rem;
   background-size: cover;
   background-image: url("../img/red_road_1.jpeg");
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%); }
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%); }
 
 .tc_double {
   width: 100%;
@@ -154,5 +154,20 @@ body {
 .style_footer {
   padding-top: 2rem;
   padding-bottom: 2rem; }
+
+.footer_callout {
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563);
+  /* W3C, IE 10+/ Edge,Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -ms-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  transform: skewY(-3deg); }
+  .footer_callout .footer_content {
+    -ms-transform: skewY(3deg);
+    -webkit-transform: skewY(3deg);
+    transform: skewY(3deg); }
 
 /*# sourceMappingURL=corolla.css.map */
