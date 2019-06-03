@@ -153,21 +153,20 @@ body {
 
 .style_footer {
   padding-top: 2rem;
-  padding-bottom: 2rem; }
-
-.footer_callout {
+  padding-bottom: 2rem;
   background: #485563;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #29323c, #485563);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #29323c, #485563);
-  /* W3C, IE 10+/ Edge,Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -ms-transform: skewY(-3deg);
-  -webkit-transform: skewY(-3deg);
-  transform: skewY(-3deg); }
-  .footer_callout .footer_content {
-    -ms-transform: skewY(3deg);
-    -webkit-transform: skewY(3deg);
-    transform: skewY(3deg); }
+  /* W3C, IE 10+/ Edge,Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.style_footer_bottom {
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563);
+  /* W3C, IE 10+/ Edge,Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 /*# sourceMappingURL=corolla.css.map */
