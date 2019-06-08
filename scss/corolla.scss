@@ -36,6 +36,22 @@ body {
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Noto Serif', serif;
 
+.top_tc_margin_card {
+
+   margin-top: 10rem;
+   z-index: 900000000;
+   
+}
+
+.bg_metalic {
+
+   background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563);
+
+}
+
+
 .sub_tc_header {
 
    font-family: 'Open Sans', sans-serif;
@@ -86,8 +102,8 @@ body {
     height: 40rem;
     background-size: cover;
     background-image: url('../img/tc_hero_middle.jpg');
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+//   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0    100%);
+//     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
 
 }
 
