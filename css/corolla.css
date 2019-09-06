@@ -53,9 +53,34 @@ body {
 
 .tc_hero {
   width: 100%;
-  height: 40rem;
-  background-size: cover;
-  background-image: url("../img/tc_hero_middle.jpg"); }
+  height: 25rem;
+  background-color: orange;
+  border-bottom-right-radius: 600px 90px;
+  border-bottom-left-radius: 600px 90px;
+  display: flex;
+  justify-content: space-between; }
+  .tc_hero .tripple_banner_grid {
+    height: inherit;
+    width: inherit;
+    grid-column-gap: 3rem;
+    grid-column: auto auto;
+    display: flex;
+    justify-content: space-between; }
+  .tc_hero .model {
+    height: inherit;
+    display: flex;
+    justify-content: center; }
+    .tc_hero .model img {
+      height: 20rem;
+      width: auto;
+      overflow: hidden;
+      margin-top: 5rem; }
+
+.banner_title_margin {
+  margin-left: 5rem; }
+
+.banner_top_margin {
+  margin-top: 6rem; }
 
 .tc_double {
   width: 100%;
